@@ -1,0 +1,10 @@
+.menu {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px 0 0;
+}
+
+.menu > *:not(:first-child) {
+  border-top: 1px solid gray;
+}

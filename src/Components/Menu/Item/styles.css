@@ -1,0 +1,8 @@
+.menu__item {
+  width: 100%;
+}
+
+.menu__item--isActive {
+  font-weight: bold;
+  color: blueviolet;
+}

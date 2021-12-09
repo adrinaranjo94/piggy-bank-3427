@@ -1,0 +1,10 @@
+.leftSide {
+  flex: 0.15;
+  border: 1px solid black;
+  height: 100vh;
+  padding: 16px 32px;
+}
+
+.leftSide > *:not(:first-child) {
+  margin-top: 16px;
+}
